@@ -25,7 +25,7 @@ $("#header-inner").addClass('image-responsive');
             $("#menuutama").remove();
 			$("#menuutama").removeClass("tidakfix").addClass("fix");
                 
-                 $('#banner').css({'margin-bottom': '72px';
+                 $('#banner').css({'margin-bottom': '72px'});
 			} else if($(this).scrollTop() <= pos.top){
 
                $("#menuutama").clone().prependTo('#wrapper')

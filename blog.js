@@ -31,7 +31,7 @@ $("#header-inner").addClass('image-responsive');
                $("#menuutama").clone().prependTo('#wrapper')
                  $("#menuutama").remove();
                 $("#menuutama").removeClass("fix").addClass("tidakfix");
-                   $'#banner').css({'margin-bottom': '0px'});
+                   $('#banner').css({'margin-bottom': '0px'});
 			}
 		});
 

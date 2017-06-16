@@ -5,7 +5,7 @@ var pos;
 		pos = menu.offset();
         console.log(pos);
     }
-     $(window.resize(ukur);
+     $(window).resize(ukur);
 $(document).ready(function(){
 ukur();
   $("#header-inner img:first").css({

@@ -5,7 +5,7 @@ var pos;
 		pos = menu.offset();
         console.log(pos);
     }
-     $(window).resize(fuction(){
+     $(window).resize(function(){
 	ukur();
 tombol();
 		      });

@@ -36,3 +36,14 @@ $("#header-inner").addClass('image-responsive');
 		});
 
 });
+
+if ($(window).width() < 850) {
+   $(".btn-lg").addClass("btn-md");
+	$(".btn-lg").removeClass("btn-lg");
+}
+else {
+      $(".btn-md").addClass("btn-lg");
+	$(".btn-md").removeClass("btn-md");
+}
+
+

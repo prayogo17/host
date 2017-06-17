@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -63,9 +62,7 @@ text-align: center;
 .kiri{
     border-right: 0px solid #bad6ef;
 }
-.kanan{
-    border-left: 1px solid #bad6ef;
-}
+
 .footerbawah{
     font-family: "Sitka Small";
     width: 100%;
@@ -155,9 +152,14 @@ border-width: 0.0000001px;
 .blog-pager{display:none;}
 .blog-feeds{display:none;}
 .date-header{display: none;}
-@media (max-width: 1200px) { 
+/*Saat Kecil*/
+@media (max-width: 1200px) {
+       .kanan{
+    border:none;
+}
+  
     #sidebar{
-    
+    display: none;
 width: 91%;
         margin: auto;
    
@@ -171,9 +173,14 @@ width: 100%;
     
 }
 }
-@media (min-width: 1200px) {    
+/*Saat Besar*/
+@media (min-width: 1200px) {
+     .kanan{
+    border-left: 1px solid #bad6ef;
+}
        #sidebar{   
-width: 32%; 
+width: 32%;
+           display: block;
 }
 .post {
 width: 97%;

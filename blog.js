@@ -5,9 +5,13 @@ var pos;
 		pos = menu.offset();
         console.log(pos);
     }
-     $(window).resize(ukur);
+     $(window).resize(fuction(){
+	ukur();
+tombol();
+		      });
 $(document).ready(function(){
 ukur();
+tombol();
   $("#header-inner img:first").css({
     "width": "100%",
     "height":"auto"
@@ -36,7 +40,7 @@ $("#header-inner").addClass('image-responsive');
 		});
 
 });
-
+function tombol(){
 if ($(window).width() < 850) {
    $(".btn-lg").addClass("btn-md");
 	$(".btn-lg").removeClass("btn-lg");
@@ -45,5 +49,5 @@ else {
       $(".btn-md").addClass("btn-lg");
 	$(".btn-md").removeClass("btn-md");
 }
-
+}
 

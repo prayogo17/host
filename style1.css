@@ -1,4 +1,5 @@
 
+
 *{
     padding: 0px;
     margin: 0px;
@@ -44,26 +45,34 @@ list-style: none;
 
 footer{ 
  
-
+color: white;
     width: 100%;
   clear: both;
-    background-color: aqua;
-    height: 230px;
+    background-color: #1b5c99;
+
 
 }
 .footeratas{
     padding: 10px 40px;
     width: 94%;
-    background-color: bisque;
-    height: 230px;
+   
+text-align: center;
     margin: auto;
+    border-bottom: 3px double #bad6ef;
+}
+.kiri{
+    border-right: 0px solid #bad6ef;
+}
+.kanan{
+    border-left: 1px solid #bad6ef;
 }
 .footerbawah{
-    
+    font-family: "Sitka Small";
     width: 100%;
-    
-    height: 25px;
     margin: auto;
+   
+ text-align: center;
+    
 }
 .paragrap{
     

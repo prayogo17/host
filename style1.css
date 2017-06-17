@@ -82,7 +82,9 @@ footer{
     
     text-align: justify;
 }
-
+.share-post{
+    float: right;
+}
 .post-title{
     
     text-align: left;
@@ -92,7 +94,9 @@ footer{
 }
 .postthumb{
     
-    display: block;
+    width:250px;
+    height:180px;
+    display:block;
     
     margin: auto;
 }
@@ -121,7 +125,7 @@ text-align: center;
    
 
 }
-
+.share1{width: 20px;}
 .post1{
 overflow:hidden; 
 height: 400px;
@@ -139,13 +143,9 @@ margin:0px 5px 10px 0px;
 border-style: solid;
 border-width: 0.0000001px;
 }
-.post img{     text-align: center;width:250px;height:180px;}
 .blog-pager{display:none;}
 .blog-feeds{display:none;}
 .date-header{display: none;}
-
-
-
 @media (max-width: 1200px) { 
     #sidebar{
     
@@ -162,13 +162,9 @@ width: 100%;
     
 }
 }
-@media (min-width: 1200px) { 
-    
-       #sidebar{
-    
-width: 32%;
-       
-   
+@media (min-width: 1200px) {    
+       #sidebar{   
+width: 32%; 
 }
 .post {
 width: 97%;
@@ -206,6 +202,6 @@ ul.share-buttons .sr-only {
   overflow: hidden;
 }
 
-ul.share-buttons img{
+.share2{
   width: 32px;
 }

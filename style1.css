@@ -41,7 +41,9 @@ list-style: none;
     left: 0px; 
     z-index: 999;
 }
-
+  .blog-pager{
+    clear:both;
+    } 
 footer{ 
  
 color: white;

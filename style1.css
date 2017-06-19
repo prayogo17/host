@@ -151,6 +151,12 @@ margin:0px 5px 10px 0px;
 border-style: solid;
 border-width: 0.0000001px;
 }
+.postbaca{ 
+
+padding:5px 10px;
+margin:0px 5px 10px 0px;
+}
+
 
 .blog-feeds{display:none;}
 .date-header{display: none;}

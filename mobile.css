@@ -80,7 +80,32 @@
 }
 
 }
+.mobile-artikel{
+    
+    padding: 0px 10px;
+}
+.kotak-mobile{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
 
+.kotak-mobile:last-child{
+    
+    border-bottom: none;
+}
+.thumb-mobile{
+    float: left;
+width: 35%;
+    height: 25%;
+}
 
-
-
+.Image img{
+    width: 100%;
+height: 100%;
+}
+.desk-artikel-mobile{
+    
+    float: right;
+    width: 60%;
+}

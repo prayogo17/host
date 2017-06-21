@@ -105,9 +105,13 @@ width: 35%;
 height: 100%;
 }
 .desk-artikel-mobile{
-    
+    text-align: justify;
     float: right;
     width: 60%;
     height:100%;
     overflow:hidden;
+}
+.mobile-footer{
+ text-align: center;
+  background-color: aquamarine;
 }

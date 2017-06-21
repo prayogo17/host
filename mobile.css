@@ -115,3 +115,12 @@ height: 100%;
  text-align: center;
   background-color: aquamarine;
 }
+.mobile-footer{
+ 
+    text-align: center;
+    background-color: aqua;
+}
+.mobile-footer p:last-child{
+    
+    margin: 0px;
+}

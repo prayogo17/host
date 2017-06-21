@@ -120,7 +120,7 @@ height: 100%;
     text-align: center;
     background-color: aqua;
 }
-.mobile-footer p:last-child{
+.mobile-footer p{
     
     margin: 0px;
 }

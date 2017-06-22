@@ -5,3 +5,17 @@ $('html, body').animate({
 }, 'slow');
 
 });
+
+$(function(){
+	 var menu = $(".artikel");
+		pos = menu.offset();
+		$(window).scroll(function(){
+			if($(this).scrollTop() > gambar.top){
+			 $('.slider').fadeIn("slow");
+			
+			}else if($(this).scrollTop() <= gambar.top){
+			 $('.slider').fadeOut("slow");
+			}
+		});
+
+});

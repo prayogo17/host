@@ -130,7 +130,7 @@ height: 100%;
     bottom: 5%;
     right: 6%;
     width: 55px;
-   
+   display:none;
      z-index: 1000;
     cursor:pointer;
 }

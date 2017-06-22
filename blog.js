@@ -41,10 +41,10 @@ $("#header-inner").addClass('image-responsive');
 			}
 			
 			if($(this).scrollTop() > gambar.top){
-			 $('.slider').css({'display': 'block'});
+			 $('.slider').fadeIn("slow");
 			
 			}else if($(this).scrollTop() <= gambar.top){
-			 $('.slider').css({'display': 'none'});
+			 $('.slider').fadeOut("slow");
 			}
 		});
 

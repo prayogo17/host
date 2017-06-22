@@ -239,3 +239,13 @@ ul.share-buttons .sr-only {
      z-index: 1000;
     cursor:pointer;
 }
+h1{
+display:none;
+}
+footer a{
+color:#c9dbff;
+}
+h2{
+font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;
+    color:black;
+}

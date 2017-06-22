@@ -39,6 +39,13 @@ $("#header-inner").addClass('image-responsive');
                 $("#menuutama").removeClass("fix").addClass("tidakfix");
                    $('#banner').css({'margin-bottom': '0px'});
 			}
+			
+			if($(this).scrollTop() > scr.top){
+			 $('.slider').css({'display': 'block'});
+			
+			}else if($(this).scrollTop() <= scr.top){
+			 $('.slider').css({'display': 'none'});
+			}
 		});
 
 });

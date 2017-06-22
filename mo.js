@@ -13,7 +13,7 @@ $(function(){
 			if(($(this).scrollTop()+20) > gambar.top){
 			 $('.slider').fadeIn("slow");
 			
-			}else if((($(this).scrollTop()+20) <= gambar.top){
+			}else if(($(this).scrollTop()+20) <= gambar.top){
 			 $('.slider').fadeOut("slow");
 			}
 		});

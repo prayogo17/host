@@ -10,10 +10,10 @@ $(function(){
 	 var menu = $(".artikel");
 		pos = menu.offset();
 		$(window).scroll(function(){
-			if($(this).scrollTop() > gambar.top){
+			if(($(this).scrollTop()+100) > gambar.top){
 			 $('.slider').fadeIn("slow");
 			
-			}else if($(this).scrollTop() <= gambar.top){
+			}else if((($(this).scrollTop()+100) <= gambar.top){
 			 $('.slider').fadeOut("slow");
 			}
 		});

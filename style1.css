@@ -239,15 +239,3 @@ ul.share-buttons .sr-only {
      z-index: 1000;
     cursor:pointer;
 }
-@media (max-width: 750px) {
-    .post-body img{
-        height: auto;
-        width: 100%;
-    }
-}
-@media (min-width: 750px) {
-  .post-body img{
-        height: auto;
-        width: auto;
-    }
-}

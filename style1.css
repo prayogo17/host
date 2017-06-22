@@ -246,6 +246,22 @@ footer a{
 color:#c9dbff;
 }
 h2{
-font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;
-    color:black;
+font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;  
+}
+h2 a{
+color:black;
+}
+
+
+@media (max-width: 750px) {
+    .pilihpost img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 750px) {
+  .pilihpost img{
+        height: auto;
+        width: auto;
+    }
 }

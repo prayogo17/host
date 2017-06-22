@@ -1,5 +1,5 @@
 var pos;
-    
+var gambar;    
     function ukur(){
         var menu = $("#menuutama");
 		pos = menu.offset();
@@ -40,10 +40,10 @@ $("#header-inner").addClass('image-responsive');
                    $('#banner').css({'margin-bottom': '0px'});
 			}
 			
-			if($(this).scrollTop() > scr.top){
+			if($(this).scrollTop() > gambar.top){
 			 $('.slider').css({'display': 'block'});
 			
-			}else if($(this).scrollTop() <= scr.top){
+			}else if($(this).scrollTop() <= gambar.top){
 			 $('.slider').css({'display': 'none'});
 			}
 		});

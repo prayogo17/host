@@ -3,7 +3,9 @@ var pos;
     function ukur(){
         var menu = $("#menuutama");
 		pos = menu.offset();
-        console.log(pos);
+	    var scr=$(".artikel");
+	    gambar = scr.offset();
+        console.log(gambar);
     }
      $(window).resize(function(){
 	ukur();

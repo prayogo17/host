@@ -62,6 +62,8 @@ else {
 
 $(document).on('click', '.slider' ,function() {
 
-$("#wrapper").animate({ scrollTop: 0 }, 'slow');
+$('html, body').animate({
+    scrollTop: "0px"
+}, 800);
 
 });

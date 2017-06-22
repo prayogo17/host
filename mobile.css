@@ -134,3 +134,10 @@ height: 100%;
      z-index: 1000;
     cursor:pointer;
 }
+.tombol{
+width:80%;
+}
+.inputan{
+width:80%;
+    float:left;
+}

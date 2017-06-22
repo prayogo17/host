@@ -60,3 +60,8 @@ else {
 }
 }
 
+$(document).on('click', '.slider' ,function() {
+
+$("#wrapper").animate({ scrollTop: 0 }, 'slow');
+
+});

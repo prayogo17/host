@@ -7,13 +7,13 @@ $('html, body').animate({
 });
 
 $(function(){
-	 var menu = $(".artikel");
-		pos = menu.offset();
+	
+		var gambar = $(".artikel").offset();
 		$(window).scroll(function(){
-			if(($(this).scrollTop()+10) > gambar.top){
+			if(($(this).scrollTop()+20) > gambar.top){
 			 $('.slider').fadeIn("slow");
 			
-			}else if((($(this).scrollTop()+10) <= gambar.top){
+			}else if((($(this).scrollTop()+20) <= gambar.top){
 			 $('.slider').fadeOut("slow");
 			}
 		});

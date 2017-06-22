@@ -237,5 +237,5 @@ ul.share-buttons .sr-only {
     width: 55px;
     display:none;
      z-index: 1000;
-    
+    cursor:pointer;
 }

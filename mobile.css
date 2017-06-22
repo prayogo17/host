@@ -141,3 +141,12 @@ width:20%;
 width:80%;
     float:left;
 }
+h2{
+font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;  
+}
+h2 a{
+color:black;
+}
+h1{
+display:none;
+}

@@ -236,6 +236,6 @@ ul.share-buttons .sr-only {
     right: 6%;
     width: 55px;
     display:none;
-    
+     z-index: 1000;
     
 }

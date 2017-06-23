@@ -274,7 +274,11 @@ font-family:Impact,'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;
 color:black;
 
 }
+.post-labels a{
 
+color:black;
+
+}
 .post-timestamp{
 font-weight: bold;
 font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;  

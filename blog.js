@@ -78,7 +78,7 @@ function related_results_labels(json){
 		for(var k=0;k<entry.link.length;k++){
 			if(entry.link[k].rel=='alternate')
 			{
-				cosole.log(entry.link[k].href);
+				console.log(entry.link[k].href);
 			relatedUrls[relatedTitlesNum]=entry.link[k].href;
 			 relatedTitlesNum++;break;
 			}

@@ -287,3 +287,10 @@ font-family:'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;
 .judulbaca{
     font-size:30px;
 }
+.navbar-inverse{
+background-image: linear-gradient(to bottom,#6f87ff 0,#29dbf7 100%);
+
+}
+.navbar{
+border:none;
+}

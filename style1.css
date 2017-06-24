@@ -294,3 +294,6 @@ background-image: linear-gradient(to bottom,#6f87ff 0,#29dbf7 100%);
 .navbar{
 border:none;
 }
+.nav li a{
+color:white;
+}

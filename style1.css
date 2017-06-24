@@ -313,3 +313,16 @@ color:white;
 
 background-color: #3a62f2;
 }
+
+.navbar-inverse .navbar-toggle{
+border-color:transparent;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+
+background-color:transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+border-color:transparent;
+
+}

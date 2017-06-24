@@ -295,10 +295,10 @@ background-image: linear-gradient(to bottom,#6f87ff 0,#29dbf7 100%);
 border:none;
 }
 .nav li a{
-color:white;
+
 font-weight:bold;
 }
-.nav li a:hover{
-background-color:#4268f4;
 
+.navbar-inverse .navbar-nav>li>a{
+color:white;
 }

@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-li{
+ul li{
 list-style: none;
 }
 #sidebar{
@@ -11,8 +11,7 @@ list-style: none;
 
     padding: 2px 30px;
     text-align: justify;
-    border-style: double;
-    border-width: 10px;
+   border-left:  2px solid  black;
 }
 #wrapper{
     

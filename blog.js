@@ -105,7 +105,7 @@ function contains(a,e){
 }
 function printRelatedLabels(){
 	var r=Math.floor((relatedTitles.length-1)*Math.random());
-	var i=0;document.write('<ul>');
+	var i=0;document.write('<ol>');
 	while(i<relatedTitles.length&&i<20)
 	{
 		document.write('<li><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></li>');
@@ -113,5 +113,5 @@ function printRelatedLabels(){
 										  }
 i++;
 	}
-document.write('</ul>');document.write();
+document.write('</ol>');document.write();
 }

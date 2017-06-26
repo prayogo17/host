@@ -95,7 +95,7 @@ text-align: center;
 .post-title{
     
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
     
     
 }
@@ -264,10 +264,7 @@ color:black;
         width: auto;
     }
 }
-h3{
 
-font-size:18px;
-}
 .post-labels{
 font-family:Impact,'Roboto Slab',Segoe UI,Segoe,Arial,Verdana,sans-serif;  
 color:black;

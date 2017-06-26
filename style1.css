@@ -305,7 +305,7 @@ background-color: #29eaf1;
 .dropdown-menu>li>a{
 color:white;
 }
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+.navbar-inverse .navbar-nav>li>a:hover{
 
 background-color: #3a62f2;
 }
@@ -324,4 +324,9 @@ border-color:transparent;
 }
 .home:hover{
 color:white;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+background-color : transparent;
+
+
 }

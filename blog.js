@@ -63,8 +63,9 @@ else {
 }
 function fontsize(){
 if ($(window).width() < 569) {
- var k=($(window).width()/4.4)*0.1;
-	console.log(k);
+ var k=$(window).width()/140;
+ k=($(window).width()/k)*0.1;
+	//console.log(k);
 $('#menustatic').css({'font-size': k+'px'});
 }
 else {

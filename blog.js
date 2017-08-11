@@ -5,7 +5,7 @@ var gambar;
 		pos = menu.offset();
 	    var scr=$(".artikel");
 	    gambar = scr.offset();
-        console.log(gambar);
+  
     }
      $(window).resize(function(){
 	ukur();

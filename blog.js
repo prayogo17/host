@@ -63,7 +63,7 @@ else {
 }
 function fontsize(){
 if ($(window).width() < 569) {
- var k=$(window).width()/140;
+ var k=$(window).width()/4.0571;
 	console.log(k);
 }
 else {

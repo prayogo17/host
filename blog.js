@@ -63,7 +63,7 @@ else {
 }
 function fontsize(){
 if ($(window).width() < 569) {
- car k=$(window).width()/140;
+ var k=$(window).width()/140;
 	console.log(k);
 }
 else {

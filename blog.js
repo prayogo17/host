@@ -65,10 +65,10 @@ function fontsize(){
 if ($(window).width() < 569) {
  var k=($(window).width()/4.0571)*0.1;
 	//console.log(k);
-$('#menustatic .navbar nav li a').css({'font-size': k+'px'});
+$('#menustatic').css({'font-size': k+'px'});
 }
 else {
-    $('#menustatic .navbar nav li a').css({'font-size': '14px'});
+    $('#menustatic').css({'font-size': '14px'});
 }
 }
 

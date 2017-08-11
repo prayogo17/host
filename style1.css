@@ -332,4 +332,5 @@ background-color : transparent;
 }
 #menustatic{
 margin-bottom:0px;
+background-image: linear-gradient(to bottom,#016eff 0,#016eff 100%);
 }

@@ -10,10 +10,12 @@ var gambar;
      $(window).resize(function(){
 	ukur();
 tombol();
+fontsize();
 		      });
 $(document).ready(function(){
 ukur();
 tombol();
+fontsize();
   $("#header-inner img:first").css({
     "width": "100%",
     "height":"auto"
@@ -57,6 +59,15 @@ if ($(window).width() < 850) {
 else {
       $(".btn-md").addClass("btn-lg");
 	$(".btn-md").removeClass("btn-md");
+}
+}
+function fontsize(){
+if ($(window).width() < 569) {
+ car k=$(window).width()/140;
+	console.log(k);
+}
+else {
+    
 }
 }
 

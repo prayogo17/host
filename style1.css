@@ -336,7 +336,6 @@ background-image: linear-gradient(to bottom,#016eff 0,#016eff 100%);
 border-bottom: white 1px solid;
 }
 #menustatic .navbar-nav>li>a {
-    padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px;
     float: left;

@@ -66,10 +66,10 @@ if ($(window).width() <= 554) {
  var k=554-$(window).width();
  k=14-(k*0.036);
 	//console.log(k);
-$('#menustatic').css({'font-size': k+'px'});
+$('#menustatic').find('li').css({'font-size': k+'px'});
 }
 else {
-    $('#menustatic').css({'font-size': '14px'});
+ //   $('#menustatic').css({'font-size': '14px'});
 }
 }
 

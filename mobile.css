@@ -202,10 +202,14 @@ font-size:18px;
 margin-bottom:0px;
 background-image: linear-gradient(to bottom,#016eff 0,#016eff 100%);
 border-bottom: white 1px solid;
+  min-height: 0px; 
 }
 #menustatic .navbar-nav>li>a {
     padding-bottom: 10px;
     line-height: 20px;
     float: left;
     font-size:7.6px;
+}
+#menustatic .navbar-nav {
+     margin-top: 0px; 
 }

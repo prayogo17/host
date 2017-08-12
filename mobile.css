@@ -208,11 +208,12 @@ border-bottom: white 1px solid;
     padding-bottom: 10px;
     line-height: 20px;
     float: left;
-    font-size:11.5px;
+    font-size:10.38px;
 }
 #menustatic .navbar-nav {
      margin-top: 0px; 
 }
 #menustatic .nav>li>a {
     padding: 10px 5px;
+    margin:0px;
 }

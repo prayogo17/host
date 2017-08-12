@@ -198,3 +198,13 @@ border-radius:0px;
 h3{
 font-size:18px;
 }
+#menustatic{
+margin-bottom:0px;
+background-image: linear-gradient(to bottom,#016eff 0,#016eff 100%);
+border-bottom: white 1px solid;
+}
+#menustatic .navbar-nav>li>a {
+    padding-bottom: 10px;
+    line-height: 20px;
+    float: left;
+}

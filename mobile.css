@@ -213,3 +213,6 @@ border-bottom: white 1px solid;
 #menustatic .navbar-nav {
      margin-top: 0px; 
 }
+#menustatic .nav>li>a {
+    padding: 10px 5px;
+}

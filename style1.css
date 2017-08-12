@@ -340,3 +340,6 @@ border-bottom: white 0.5px solid;
     line-height: 20px;
     float: left;
 }
+#menustatic .navbar-nav { 
+     margin:0px;
+}

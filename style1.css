@@ -333,7 +333,7 @@ background-color : transparent;
 #menustatic{
 margin-bottom:0px;
 background-image: linear-gradient(to bottom,#016eff 0,#016eff 100%);
-border-bottom: white 1px solid;
+border-bottom: white 0.5px solid;
 }
 #menustatic .navbar-nav>li>a {
     padding-bottom: 10px;

@@ -383,3 +383,9 @@ min-height: 0px;
 }
 
 }
+#menuutama{
+border-top: white 0.5px solid;
+}
+#menuutama li{
+border-right: white 0.5px solid;
+}

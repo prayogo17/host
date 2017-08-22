@@ -387,4 +387,9 @@ min-height: 0px;
 border-top: white 0.5px solid;
     font-size:15px;
 }
-
+.navfooter1 li{
+float:left;
+}
+.navfooter li{
+float:left;
+}

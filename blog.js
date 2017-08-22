@@ -127,7 +127,7 @@ function printRelatedLabels(){
 	{
 		var y=relatedImg[r].replace(/\\/g, '');
 	          y=y.replace("s72-c", "s125");
-		document.write('<img src='+y+'  width='100'/><li><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></li>');
+		document.write('<img src='"+y+"'  width='100'/><li><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></li>');
 					    if(r<relatedTitles.length-1){r++;
 					    }else{
 						    r=0;

@@ -125,7 +125,7 @@ function printRelatedLabels(){
 	var i=0;document.write('<ol>');
 	while(i<relatedTitles.length&&i<20)
 	{
-		var y=relatedImg[r].replace(/\/g, "");
+		var y=relatedImg[r].replace(/\\/g, '');
 	          y=y.replace("s72-c", "s125");
 		document.write('<img src='+y+'  width='100'/><li><a href="'+relatedUrls[r]+'">'+relatedTitles[r]+'</a></li>');
 					    if(r<relatedTitles.length-1){r++;

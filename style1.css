@@ -389,7 +389,11 @@ border-top: white 0.5px solid;
 }
 .navfooter1 li{
 float:left;
+    padding:5px;
 }
 .navfooter li{
 float:left;
+      padding:5px;
 }
+.navfooter1 li a{color:white; text-decoration: none;}
+.navfooter li a{color:white; text-decoration: none;}

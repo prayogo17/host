@@ -169,7 +169,7 @@ margin:0px 5px 10px 0px;
     display: block;
 width: 91%;
         margin: auto;
-   
+    border:none;
 }
 .post {
 width: 100%;
@@ -188,6 +188,7 @@ width: 100%;
        #sidebar{   
 width: 32%;
            display: block;
+          border-left:  2px solid  black;
 }
 .post {
 width: 100%;

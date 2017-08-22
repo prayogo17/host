@@ -397,3 +397,6 @@ float:left;
 }
 .navfooter1 li a{color:white; text-decoration: none;}
 .navfooter li a{color:white; text-decoration: none;}
+.navfooter{
+    display:inline-block;
+}

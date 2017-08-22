@@ -401,3 +401,15 @@ float:left;
 .navfooter{
     display:inline-block;
 }
+#bagi{
+    border-bottom: double 3px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.share2{
+    width:30px;
+}
+#sharep{
+text-align:center;
+}

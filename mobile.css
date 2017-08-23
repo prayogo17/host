@@ -113,7 +113,11 @@ height: 100%;
 }
 .mobile-footer{
  text-align: center;
-  background-color: aquamarine;
+  background-color: #016eff;
+}
+.mobile-footer a{
+color:black;
+ text-decoration:none;
 }
 .mobile-footer{
  

@@ -478,7 +478,7 @@ table tr:hover td {
             width:825px
         }
         .kait h4{
-            font-size: 18px;
+            font-size: 14px;
             margin: 0px;
             padding: 0px;
         }
@@ -492,7 +492,7 @@ table tr:hover td {
         }
         .kait p{
             margin: 5px;
-            padding: px;
+            font-size: 12px;
         }
         .kait{
           overflow: hidden;
@@ -509,6 +509,7 @@ table tr:hover td {
             background-color: #5b7fe2;
             color: #f8faff;
             margin-bottom: 0px;
+            font-size:18px;
         }
         .kait a{
             color: black;

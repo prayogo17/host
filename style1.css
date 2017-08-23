@@ -542,9 +542,13 @@ width:85%;
 margin:auto;
 }
 #header1{
-width:50%;
+width:70%;
 overflow:hidden;
 }
 .navbar{
 margin-bottom:5px;
+}
+.ads1 img{
+width:100%;
+height:auto;
 }

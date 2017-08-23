@@ -541,3 +541,8 @@ display:block;
 width:85%;
 margin:auto;
 }
+#header1{
+width:50%;
+height :200px;
+overflow:hidden;
+}

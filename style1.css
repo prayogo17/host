@@ -553,4 +553,37 @@ margin-bottom:5px;
 width:100%;
 height:auto;
 }
+#wrap1 table tr td{
+    font-weight: bold;
+    color: white;
+    width: 1%;
+    background-color: #5b7fe2;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
 
+}#wrap1 .active{
+    background-color: #4d54a5;
+}
+#wrap1 table {
+    border: rgba(0,0,0,0.5) solid 1px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#wrap1 table tr td:hover{
+    background-color: #4d54a5;
+}
+#wrap1{
+    width: 800px;
+}
+#wrap1 h4{
+    margin: 0;
+}
+#isitab{
+    padding: 20px;
+    border:rgba(0,0,0,0.3) solid 1px;
+border-top: white solid 1px;
+}
+.isi2, .isi3{
+    display: none;
+}

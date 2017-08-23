@@ -135,7 +135,7 @@ function printRelatedLabels(){
 		var des=relatedDesk[r].replace(/\n/g,'');
 		
 		//document.write('<li><img src='+y+' height="100" width="100"/>  <a href='+relatedUrls[r]+'>'+relatedTitles[r]+'</a></li>');
-		
+		document.write('<div class="kait"><a href='+relatedUrls[r]+'><img src='+y+' alt='+relatedTitles[r]+'></a><a href='+relatedUrls[r]+'><h4>'+relatedTitles[r]+'</h4></a><p>'+des+'</p></div>');
 					    if(r<relatedTitles.length-1){r++;
 					    }else{
 						    r=0;

@@ -474,3 +474,46 @@ table tr:hover td {
   background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
   background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
 }
+    #wrap{
+            width:825px
+        }
+        .kait h4{
+            font-size: 18px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .kait img{
+            float: left;
+            width: 80px;
+             border: 1px solid rgba(0,0,0,0.06);
+            padding: 2px;
+            margin-right: 10px
+        }
+        .kait p{
+            margin: 5px;
+            padding: px;
+        }
+        .kait{
+          overflow: hidden;
+            padding: 15px 0px 10px 0px;
+           
+                border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+        #terkait{
+            padding: 8px;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        #judulkait{
+            padding: 10px;
+            background-color: #5b7fe2;
+            color: #f8faff;
+            margin-bottom: 0px;
+        }
+        .kait a{
+            color: black;
+            text-decoration: none;
+        }
+        .kait a:hover{
+            color: #76bbd0;
+        }

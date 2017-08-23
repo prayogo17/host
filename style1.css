@@ -536,3 +536,7 @@ display:block;
 display:block;
         }
 }
+.email.address{
+width:250px;
+margin:auto;
+}

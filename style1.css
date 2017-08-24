@@ -610,6 +610,6 @@ display: none;
 #wrap1 .item-title a:hover {
     color: #a9a5a5;
 }
-#wrap1 li {
+#wrap1 .popular-posts li {
     border-bottom:rgba(0,0,0,0.3) solid 1px;
 }

@@ -584,3 +584,12 @@ border-top: white solid 1px;
 .isi2, .isi3{
     display: none;
 }
+#wrap1 table tr:hover td{
+background: none; 
+}
+#wrap1 table{
+text-shadow:none;
+}
+#wrap1 table td{
+background: none; 
+}

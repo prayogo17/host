@@ -617,9 +617,18 @@ display: none;
     float: left;
     padding: 7px;
     border: rgba(0,0,0,0.3) solid 1px;
-    background-color: red;
+       border-left: none;
+   background-color: #5b7fe2;
+}
+#wrap1 .list-label-widget-content ul li:first-child {
+       border-left: rgba(0,0,0,0.3) solid 1px;
+    
 }
 #wrap1 .list-label-widget-content ul li a {
     text-decoration: none;
     color: black;
+    
+}
+#wrap1 .list-label-widget-content ul li:hover {
+    background-color: #85bcea;
 }

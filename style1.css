@@ -591,3 +591,23 @@ text-shadow:none;
 #wrap1 table td{
 background: none; 
 }
+#wrap1 h2 {
+    display: none;
+}
+#wrap1 .item-snippet{
+display: none;
+}
+#wrap1 .item-thumbnail img {
+    width: 60px;
+}
+#wrap1 .item-title a {
+    font-weight: bold;
+    color: black;
+}
+#wrap1 li:last-child {
+    border-bottom: none;
+}
+
+#wrap1 li {
+    border:rgba(0,0,0,0.3) solid 1px;
+}

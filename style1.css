@@ -604,7 +604,7 @@ display: none;
     text-decoration: none;
     color: black;
 }
-#wrap1 li:last-child {
+#wrap1 .popular-posts li:last-child {
     border-bottom: none;
 }
 #wrap1 .item-title a:hover {
@@ -612,4 +612,14 @@ display: none;
 }
 #wrap1 .popular-posts li {
     border-bottom:rgba(0,0,0,0.3) solid 1px;
+}
+#wrap1 .list-label-widget-content ul li {
+    float: left;
+    padding: 7px;
+    border: rgba(0,0,0,0.3) solid 1px;
+    background-color: red;
+}
+#wrap1 .list-label-widget-content ul li a {
+    text-decoration: none;
+    color: black;
 }

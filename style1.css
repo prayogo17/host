@@ -601,13 +601,15 @@ display: none;
     width: 60px;
 }
 #wrap1 .item-title a {
-    font-weight: bold;
+    text-decoration: none;
     color: black;
 }
 #wrap1 li:last-child {
     border-bottom: none;
 }
-
+#wrap1 .item-title a:hover {
+    color: #a9a5a5;
+}
 #wrap1 li {
     border:rgba(0,0,0,0.3) solid 1px;
 }

@@ -611,5 +611,5 @@ display: none;
     color: #a9a5a5;
 }
 #wrap1 li {
-    border:rgba(0,0,0,0.3) solid 1px;
+    border-bottom:rgba(0,0,0,0.3) solid 1px;
 }

@@ -626,7 +626,7 @@ display: none;
 }
 #wrap1 .list-label-widget-content ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 #wrap1 .list-label-widget-content ul li:hover {
@@ -636,5 +636,5 @@ display: none;
     margin-bottom: 20px;
 }
 #sidebar_atas{
-margin-bottom: 20px;
+margin-bottom: 15px;
 }

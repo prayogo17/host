@@ -632,3 +632,9 @@ display: none;
 #wrap1 .list-label-widget-content ul li:hover {
     background-color: #85bcea;
 }
+#wrap1 {
+    margin-bottom: 20px;
+}
+#sidebar_atas{
+margin-bottom: 20px;
+}

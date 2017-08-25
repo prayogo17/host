@@ -164,7 +164,7 @@ margin:0px 5px 10px 0px;
     border:none;
 }
     .kiri{
-    border-right:1px solid rgba(0,0,0,.06);
+    border-bottom:1px solid white;
     }
     #sidebar{
     display: block;

@@ -658,3 +658,7 @@ margin-bottom: 15px;
     width:100%;
     }
 }
+
+.CSS_LIGHTBOX{
+z-index:10000;
+}

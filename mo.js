@@ -22,13 +22,13 @@ $(function(){
 var relatedTitles=new Array();
 var relatedTitlesNum=0;
 var relatedUrls=new Array();
-var relatedImg=new Array();
+//var relatedImg=new Array();
 //var relatedDesk=new Array();
 function related_results_labels(json){
 	for(var i=0;i<json.feed.entry.length;i++){
 		var entry=json.feed.entry[i];
 		relatedTitles[relatedTitlesNum]=entry.title.$t;
-		relatedImg[relatedTitlesNum]=entry.media$thumbnail.url;
+	//	relatedImg[relatedTitlesNum]=entry.media$thumbnail.url;
 		//relatedDesk[relatedTitlesNum]=entry.summary.$t;
 		for(var k=0;k<entry.link.length;k++){
 			if(entry.link[k].rel=='alternate')
@@ -43,13 +43,13 @@ function related_results_labels(json){
 function removeRelatedDuplicates(){
 	var tmp=new Array(0);
 	var tmp2=new Array(0);
-	var tmp3=new Array(0);
+	//var tmp3=new Array(0);
 	//var tmp4=new Array(0);
 	for(var i=0;i<relatedUrls.length;i++){
 		if(!contains(tmp,relatedUrls[i])){
 			tmp.length+=1;tmp[tmp.length-1]=relatedUrls[i];
 			tmp2.length+=1;tmp2[tmp2.length-1]=relatedTitles[i];
-			tmp3.length+=1;tmp3[tmp3.length-1]=relatedImg[i];
+			//tmp3.length+=1;tmp3[tmp3.length-1]=relatedImg[i];
 			//tmp4.length+=1;tmp4[tmp4.length-1]=relatedDesk[i];
 		}
 	}
@@ -69,13 +69,13 @@ function printRelatedLabels(){
 	var i=0;document.write('<ul id="terkait">');
 	while(i<relatedTitles.length&&i<6)
 	{
-		var y=relatedImg[r].replace(/\\/g, '');
-	          y=y.replace("s72-c", "s100");
+	//	var y=relatedImg[r].replace(/\\/g, '');
+	 //         y=y.replace("s72-c", "s100");
 // 		var des=relatedDesk[r].replace(/\n/g,'');
 // 		des=des.substr(0,235);
 		
 		//document.write('<li><img src='+y+' height="100" width="100"/>  <a href='+relatedUrls[r]+'>'+relatedTitles[r]+'</a></li>');
-		document.write('<div class="kait"><a href='+relatedUrls[r]+'><img src='+y+' alt='+relatedTitles[r]+'></a><a href='+relatedUrls[r]+'><h4>'+relatedTitles[r]+'</h4></a></div>');
+		document.write('<div class="kait"><a href='+relatedUrls[r]+'><h4>'+relatedTitles[r]+'</h4></a></div>');
 					    if(r<relatedTitles.length-1){r++;
 					    }else{
 						    r=0;

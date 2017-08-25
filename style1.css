@@ -234,14 +234,14 @@ ul.share-buttons .sr-only {
   width: 32px;
 }
 .slider{
-    height: 55px;
+     height: 40px;
     position: fixed;
-    bottom: 5%;
-    right: 1.6%;
-    width: 55px;
-    display:none;
-     z-index: 1000;
-    cursor:pointer;
+    bottom: 1%;
+    right: 0.5%;
+    width: 40px;
+    display: none;
+    z-index: 1000;
+    cursor: pointer;
 }
 h1{
 display:none;

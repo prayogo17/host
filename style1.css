@@ -645,4 +645,16 @@ margin-bottom: 15px;
 .share2:hover {
     opacity: 0.6;
 }
-
+/*Saat Besar*/
+@media (min-width: 660px) {
+     iframe{
+    width:560px;
+    height:315px;
+    }
+}
+/*Saat kecil*/
+@media (max-width: 660px) {
+    iframe{
+    width:100%;
+    }
+}

@@ -320,3 +320,16 @@ table tr:hover td {
         .kait a:hover{
             color: #76bbd0;
         }
+/*Saat Besar*/
+@media (min-width: 650px) {
+     iframe{
+    width:560px;
+    height:315px;
+    }
+}
+/*Saat kecil*/
+@media (max-width: 650px) {
+    iframe{
+    width:100%;
+    }
+}

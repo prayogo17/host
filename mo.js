@@ -67,7 +67,7 @@ function contains(a,e){
 function printRelatedLabels(){
 	var r=Math.floor((relatedTitles.length-1)*Math.random());
 	var i=0;document.write('<ul id="terkait">');
-	while(i<relatedTitles.length&&i<6)
+	while(i<relatedTitles.length&&i<10)
 	{
 	//	var y=relatedImg[r].replace(/\\/g, '');
 	 //         y=y.replace("s72-c", "s100");

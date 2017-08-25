@@ -163,7 +163,9 @@ margin:0px 5px 10px 0px;
        .kanan{
     border:none;
 }
-  
+    .kiri{
+    border-right:1px solid rgba(0,0,0,.06);
+    }
     #sidebar{
     display: block;
 width: 91%;
@@ -184,6 +186,9 @@ width: 100%;
      .kanan{
     border-left: 1px solid #bad6ef;
 }
+    .kiri{
+    border:none;
+    }
        #sidebar{   
 width: 32%;
            display: block;
@@ -637,3 +642,7 @@ display: none;
 #sidebar_atas{
 margin-bottom: 15px;
 }
+.share2:hover {
+    opacity: 0.6;
+}
+

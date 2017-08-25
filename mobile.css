@@ -124,14 +124,14 @@ color:black;
     margin: 0px;
 }
 .slider{
-    height: 55px;
+    height: 35px;
     position: fixed;
-    bottom: 5%;
-    right: 6%;
-    width: 55px;
-   display:none;
-     z-index: 1000;
-    cursor:pointer;
+    bottom: 0%;
+    right: 0%;
+    width: 35px;
+    display: none;
+    z-index: 1000;
+    cursor: pointer;
 }
 .tombol{
 width:20%;

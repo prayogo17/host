@@ -55,7 +55,7 @@ function removeRelatedDuplicates(){
 	}
 relatedTitles=tmp2;
 	relatedUrls=tmp;
-	relatedImg=tmp3;
+//	relatedImg=tmp3;
 	//relatedDesk=tmp4;
 }
 function contains(a,e){

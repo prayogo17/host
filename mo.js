@@ -84,7 +84,7 @@ i++;
 	}
 document.write('</ul>');document.write();
 }
-var po;
+var po=0;
 $(document).on('click', '#ikonn' ,function() {
 	if(po==0){
 	$('#ikonn .glyphicon').removeClass('glyphicon-th-list');

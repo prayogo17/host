@@ -84,3 +84,15 @@ i++;
 	}
 document.write('</ul>');document.write();
 }
+$(document).on('click', '#ikonn' ,function() {
+var po=$('#ikonn').hasClass('glyphicon-th-list');
+	if(po){
+	$('#ikonn').removeClass('glyphicon-th-list');
+        $('#ikonn').addClass('glyphicon-remove');
+	}else{
+	$('#ikonn').removeClass('glyphicon-remove');
+        $('#ikonn').addClass('glyphicon-th-list');
+	}
+	
+
+});

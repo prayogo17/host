@@ -666,3 +666,9 @@ z-index:10000!important;
 .pilihpost{
 font-size:17px;
 }
+#comment-editor {
+    width: 100%;
+}
+#sidebar_atas .widget-content{
+text-align:center;
+}

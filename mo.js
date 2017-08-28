@@ -87,12 +87,12 @@ document.write('</ul>');document.write();
 var po;
 $(document).on('click', '#ikonn' ,function() {
 	if(po==0){
-	$('.glyphicon').removeClass('glyphicon-th-list');
-        $('.glyphicon').addClass('glyphicon-remove');
+	$('#ikonn .glyphicon').removeClass('glyphicon-th-list');
+        $('#ikonn .glyphicon').addClass('glyphicon-remove');
 		po=1;
 	}else{
-	$('.glyphicon').removeClass('glyphicon-remove');
-        $('.glyphicon').addClass('glyphicon-th-list');
+	$('#ikonn .glyphicon').removeClass('glyphicon-remove');
+        $('#ikonn .glyphicon').addClass('glyphicon-th-list');
 		po=0;
 	}
 	

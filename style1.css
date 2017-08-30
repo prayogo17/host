@@ -675,3 +675,30 @@ text-align:center;
 .img100{
 width:100%!important;
 }
+.carousel-indicators li {
+    display: inline-block;
+    width: auto!important;
+    height:auto!important;
+    margin-right: 1px!important;
+    text-indent: 0px!important;
+    cursor: pointer!important;
+    border: none!important;
+    border-radius: 0px!important;
+}
+.carousel-indicators li img {
+width: 50px;
+    height: auto;
+}
+.carousel-indicators .active {
+    border: #4e299a solid 2px!important;
+}
+.item img{
+    width: 100%;
+
+}
+#wrap2{
+    width: 1000px;
+    height: 820px;
+}
+
+

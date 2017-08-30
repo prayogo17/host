@@ -150,7 +150,7 @@ $(document).on('click','#pp',function(){
     $('.isi2').hide();
     $('.isi3').hide();
    
-    $('.active').removeClass('active');
+    $('#wrap1 .active').removeClass('active');
      $(this).addClass('active');
     
 });
@@ -159,7 +159,7 @@ $(document).on('click','#ll',function(){
     $('.isi2').show();
     $('.isi3').hide();
     
-    $('.active').removeClass('active');
+    $('#wrap1 .active').removeClass('active');
     $(this).addClass('active');
 });
 $(document).on('click','#aa',function(){
@@ -167,6 +167,6 @@ $(document).on('click','#aa',function(){
     $('.isi2').hide();
     $('.isi3').show();
    
-    $('.active').removeClass('active');
+    $('#wrap1 .active').removeClass('active');
      $(this).addClass('active');
 });

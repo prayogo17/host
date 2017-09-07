@@ -712,7 +712,5 @@ width: 65px;
 .carousel-indicators .active {
    display:block; 
 }
-.carousel-indicators li img {
- display:block;
-}
+
 }

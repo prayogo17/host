@@ -708,9 +708,4 @@ width: 65px;
  display:none;
 }
 }
-@media (min-width: 710px) {
-.carousel-indicators .active {
-   display:block; 
-}
 
-}

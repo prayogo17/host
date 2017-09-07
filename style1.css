@@ -686,11 +686,11 @@ width:100%!important;
     border-radius: 0px!important;
 }
 .carousel-indicators li img {
-width: 50px;
+width: 65px;
     height: auto;
 }
 .carousel-indicators .active {
-    border: #4e299a solid 2px!important;
+    border: white solid 2px!important;
 }
 .item img{
     width: 100%;
@@ -700,5 +700,19 @@ width: 50px;
     width: 1000px;
     height: 820px;
 }
-
-
+@media (max-width: 710px) {
+.carousel-indicators .active {
+  display:none;
+}
+.carousel-indicators li img {
+ display:none;
+}
+}
+@media (min-width: 710px) {
+.carousel-indicators .active {
+   display:block; 
+}
+.carousel-indicators li img {
+ display:block;
+}
+}

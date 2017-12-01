@@ -766,13 +766,13 @@ overflow-y: scroll;
     background-color: #5b7fe2;
     margin: 0px;
     height: 40px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: bold;
 
 }
 .artikel_lain h4{
     margin:0px;
-
+    font-size: 15px;
 }
 
 .artikel_lain a{

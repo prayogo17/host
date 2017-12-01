@@ -170,3 +170,86 @@ $(document).on('click','#aa',function(){
     $('#wrap1 .active').removeClass('active');
      $(this).addClass('active');
 });
+
+
+
+window.onscroll= function(){artikel_lain()};
+function artikel_lain(){
+
+    if($('#buka').isOnScreen()||$('#tutup').isOnScreen()){
+        
+          $("#kotakfix").css("transform", "translateX(100%)"); 
+    }else{
+        
+          $("#kotakfix").css("transform", "translateX(0%)"); 
+    }
+
+    
+}
+
+$.fn.isOnScreen = function(){
+    
+    var win = $(window);
+    
+    var viewport = {
+        top : win.scrollTop(),
+        left : win.scrollLeft()
+    };
+    viewport.right = viewport.left + win.width();
+    viewport.bottom = viewport.top + win.height();
+    
+    var bounds = this.offset();
+    bounds.right = bounds.left + this.outerWidth();
+    bounds.bottom = bounds.top + this.outerHeight();
+    
+    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+    
+};
+  
+function acak_indeks(json){
+    var acak=[];
+    var jml=15;
+    for(var i=0;i<jml;++i){
+        
+     
+        var temp=Math.floor(Math.random() * json.feed.entry.length);
+        
+        if(acak.indexOf(temp)===-1){
+            acak[i]=temp;
+           
+        }else{
+            i-=1;
+        }
+    }
+    print_artikel(json,acak,jml);
+}
+function print_artikel(json, array_acak,jml){
+    $("#kumpulan_artikel").append("<ul>");
+    for(var f=0; f<jml;++f){
+        
+  var judul =  json.feed.entry[array_acak[f]].title.$t;
+  var gambar= json.feed.entry[array_acak[f]].media$thumbnail.url;
+  var desk = json.feed.entry[array_acak[f]].summary.$t;
+  var link = json.feed.entry[array_acak[f]].link[4].href;
+        desk= desk.substring(0,110);
+       $("#kumpulan_artikel").append('<li><div class="artikel_lain"><a href='+link+'><img src='+gambar+'></a><a href='+link+'><h4>'+judul+'</h4></a></div></li>');
+    
+}$("#kumpulan_artikel").append("</ul>");
+}
+$(document).ready(function(){
+ukuran_kotakfix();
+$("#kumpulan_artikel").hover(function(){
+        $('html').css("overflow-y", "hidden");
+    $('html').css("overflow-x", "hidden");
+        }, function(){
+        $('html').css("overflow-y", "scroll");
+    });
+});
+function ukuran_kotakfix(){
+    var tinggi=$(window).height();
+    tinggi=tinggi-95;
+    $('#kotakfix').css('height',tinggi+'px');
+    tinggi=tinggi-40;
+    $('#kumpulan_artikel').css('height',tinggi+'px');
+    
+}

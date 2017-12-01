@@ -176,7 +176,7 @@ $(document).on('click','#aa',function(){
 window.onscroll= function(){artikel_lain()};
 function artikel_lain(){
 
-    if($('#sidebar1').isOnScreen()||$('footer').isOnScreen()){
+    if($('#sidebar').isOnScreen()||$('footer').isOnScreen()||$('header').isOnScreen()){
         
           $("#kotakfix").css("transform", "translateX(100%)"); 
     }else{

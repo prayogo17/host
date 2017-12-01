@@ -247,7 +247,7 @@ $("#kumpulan_artikel").hover(function(){
 });
 function ukuran_kotakfix(){
     var tinggi=$(window).height();
-    tinggi=tinggi-95;
+    tinggi=tinggi-105;
     $('#kotakfix').css('height',tinggi+'px');
     tinggi=tinggi-40;
     $('#kumpulan_artikel').css('height',tinggi+'px');

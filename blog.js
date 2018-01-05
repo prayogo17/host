@@ -232,7 +232,7 @@ function print_artikel(json, array_acak,jml){
   var desk = json.feed.entry[array_acak[f]].summary.$t;
   var link = json.feed.entry[array_acak[f]].link[4].href;
         desk= desk.substring(0,110);
-       $("#kumpulan_artikel").append('<li><div class="artikel_lain"><a href='+link+'><img title='+judul+' alt='+judul+' src='+gambar+'></a><a href='+link+'><h4>'+judul+'</h4></a></div></li>');
+       $("#kumpulan_artikel").append('<li><div class="artikel_lain"><a href='+link+'><img title="'+judul+'" alt="'+judul+'" src="'+gambar+'"></a><a href='+link+'><h4>'+judul+'</h4></a></div></li>');
     
 }$("#kumpulan_artikel").append("</ul>");
 }

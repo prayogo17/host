@@ -127,3 +127,8 @@ header .dropdown-toggle:hover, header a:hover {
 .pavoblog-post a:focus, .pavoblog-post a:hover, .pavoblog-posts a:focus, .pavoblog-posts a:hover {
      color: #8dbf43;
 }
+
+.btn-warning:hover, .interactive-banner.style1 .content .action-button .btn-link:hover, .interactive-banner.style1 .content .action-button .page-extension-module-pavstorelocator a[target="_blank"]:hover, .page-extension-module-pavstorelocator .interactive-banner.style1 .content .action-button a[target="_blank"]:hover, .interactive-banner.style1 .content .action-button .pavlayerednavigation .filter-selection .clear-all:hover, .pavlayerednavigation .filter-selection .interactive-banner.style1 .content .action-button .clear-all:hover, .interactive-banner.style1 .content .action-button .filter-default .filter-selection .clear-all:hover, .filter-default .filter-selection .interactive-banner.style1 .content .action-button .clear-all:hover, .interactive-banner.style5 a:hover, .interactive-banner.style-light .btn-link:hover, .interactive-banner.style-light .page-extension-module-pavstorelocator a[target="_blank"]:hover, .page-extension-module-pavstorelocator .interactive-banner.style-light a[target="_blank"]:hover, .interactive-banner.style-light .pavlayerednavigation .filter-selection .clear-all:hover, .pavlayerednavigation .filter-selection .interactive-banner.style-light .clear-all:hover, .interactive-banner.style-light .filter-default .filter-selection .clear-all:hover, .filter-default .filter-selection .interactive-banner.style-light .clear-all:hover {
+    background-color:  #8dbf43;
+    border-color: #8dbf43;
+}
